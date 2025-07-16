@@ -2,4 +2,35 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* border: 0.5px solid red; */
+}
+
+.heading {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 5px;
+}
+
+.nav-bar {
+    background-color: beige;
+    float: right;
+    margin: 10px;
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+}
+
+.nav-items a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav-items a:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: blue;
+    transition: 2s;
 }
